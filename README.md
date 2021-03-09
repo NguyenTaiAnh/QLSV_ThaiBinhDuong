@@ -37,14 +37,14 @@
   - Cài đặt cơ bản của laravel</br> 
   - Import file data.sql trong thư mục database/data/data.sql vào mysql</br> 
   - Điều kiện để chạy code bạn phải cài đặt:</br>
-    + máy ảo localhost: xampp, wampp,laragon
-    + Composer: phần mềm hỗ trợ tại thư viện của php
+    + máy ảo localhost: xampp, wampp,laragon</br> 
+    + Composer: phần mềm hỗ trợ tại thư viện của php</br> 
   - Mở project lên và chạy lệnh cmd tại project:</br>
-    + composer install
-    + composer update
-    + php artisan cache:clear
-    + php artisan config:clear
-    + php artisan config:cache
-    + php artisan serve
-    + Chạy theo đường link http://127.0.0.1:8000
+    + composer install</br> 
+    + composer update</br> 
+    + php artisan cache:clear</br> 
+    + php artisan config:clear</br> 
+    + php artisan config:cache</br> 
+    + php artisan serve</br> 
+    + Chạy theo đường link http://127.0.0.1:8000</br> 
   - Thưởng thức thôi.</br> 
