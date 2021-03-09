@@ -11,7 +11,7 @@
 <li> MỤC TIÊU</li>
 <li> KẾ HOẠCH</li>
 <li> CÔNG CỤ HỖ TRỢ</li>
-<li> KẾT LUẬN</li>
+<li> CÁCH DÙNG</li>
   
 </p><br/>
 
@@ -33,7 +33,7 @@
   -github</br> 
   -xampp</br> 
   ....
-<p><H4>5. Cách dùng</H4></br> 
+<p><H4>5. CÁCH DÙNG</H4></br> 
   - Cài đặt cơ bản của laravel</br> 
   - Import file data.sql trong thư mục database/data/data.sql vào mysql</br> 
   - Điều kiện để chạy code bạn phải cài đặt:</br>
