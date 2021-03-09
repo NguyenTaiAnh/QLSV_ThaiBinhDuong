@@ -2,9 +2,9 @@
 <center><H2>GIỚI THIỆU DỰ ÁN WEBSITE QUẢN LÝ ĐIỂM SINH VIÊN</H2></center>
 <hr/></br>
 <p>Tài liệu này được xây dựng bởi các thành viên:</br>
-                      -Nguyễn Trọng Lâm</br>
-                      -Bùi Nguyễn Hồng Phúc</br>
- 	                    -Nguyễn Thị Mỹ Linh</p></br>
+                      -Nguyễn Tài Anh</br>
+                      -Nguyễn Văn Khải</br>
+ 	                    -Cao Viết Đức</p></br>
                       
 <p><H4>Tóm tắt</H4><br/>
 <li> GIỚI THIỆU  </li>
@@ -20,10 +20,8 @@
 <img src="https://github.com/ProjectGKHTPT/ProjectQLDSV/blob/master/image/01.png" /><br/>
   
 <p><H4>2.MỤC TIÊU</H4><br/>
-  - Trang Web thực hiện đầy đủ chức năng yêu cầu của Project môn học " Hệ Thống Phân Tán ".<br/>
-  - Áp dụng WebService Hệ Thống Phân Tán. <br/>
-  - Sử dụng Flyway để quản lý CSDL web. <br/>
-  - Sử dụng Testcase để test các chức năng của trang web. <br/>
+  - Trang Web thực hiện đầy đủ chức năng theo đề tài.<br/>
+  - Áp dụng Framework Laravel, HTML, CSS, JS,..... <br/>
   - Nâng cao các kỹ năng làm việc nhóm.<br/>
 
 <p><H4>3. KẾ HOẠCH</H4><br/>
@@ -35,8 +33,18 @@
   -github</br> 
   -xampp</br> 
   ....
-<p><H4>5. KẾT LUẬN</H4></br> 
-  - Biết sử dụng kiến thức " Hệ Thống Phân Tán " vào thiết kế web.</br> 
-  - Thành thạo kĩ năng làm việc nhóm cũng như project nhóm.</br> 
-  - Biết sử dụng một số Framwork cũng như các tính năng quản lý CSDL của Flyway.</br> 
-  - Kiến thức sử dụng TestCase.</br> 
+<p><H4>5. Cách dùng</H4></br> 
+  - Cài đặt cơ bản của laravel</br> 
+  - Import file data.sql trong thư mục database/data/data.sql vào mysql</br> 
+  - Điều kiện để chạy code bạn phải cài đặt:</br>
+    + máy ảo localhost: xampp, wampp,laragon
+    + Composer: phần mềm hỗ trợ tại thư viện của php
+  - Mở project lên và chạy lệnh cmd tại project:</br>
+    + composer install
+    + composer update
+    + php artisan cache:clear
+    + php artisan config:clear
+    + php artisan config:cache
+    + php artisan serve
+    + Chạy theo đường link http://127.0.0.1:8000
+  - Thưởng thức thôi.</br> 
