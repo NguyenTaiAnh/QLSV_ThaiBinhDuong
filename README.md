@@ -47,4 +47,5 @@
     + php artisan config:cache</br> 
     + php artisan serve</br> 
     + Chạy theo đường link http://127.0.0.1:8000</br> 
-  - Thưởng thức thôi.</br> 
+  - Tk admin: admin@gmail.com / pass: 123123.</br> 
+  - TK user: user@gmail.com / pass: 123123.</br> 
