@@ -56,8 +56,6 @@
             <th>Tên giảng viên</th>
             <th>Ngày sinh</th>
             <th>Giới tính</th>
-            <th>Học hàm</th>
-            <th>Học vị</th>
             @can('admin')
             <th>Hành Động</th>
             @endcan
@@ -90,7 +88,7 @@
                     },
                     @can('admin')
                     {
-                        "targets": 7,
+                        "targets": 5,
                         "className": "text-center",
                     }
                     @endcan
@@ -114,8 +112,6 @@
                     {data: 'hotengv', name: 'hotengv'},
                     {data: 'ngaysinh', name: 'ngaysinh'},
                     {data: 'gioitinhgv', name: 'gioitinhgv'},
-                    {data: 'hocham', name: 'hocham'},
-                    {data: 'hocvi', name: 'hocvi'},
                     @can('admin')
                     {data: 'action', name: 'action'},
                     @endcan
@@ -157,8 +153,6 @@
                         $("#edit_tengv").val(resp.tengv);
                         $("#edit_gioitinh").val(resp.gioitinh).trigger('change');
                         $("#edit_ngaysinh").val(resp.ngaysinh);
-                        $("#edit_hocham").val(resp.hocham);
-                        $("#edit_hocvi").val(resp.hocvi);
                         // $("#edit_level").val(resp.level).trigger('change');
                     }, 'json');
                 });

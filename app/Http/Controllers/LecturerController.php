@@ -46,8 +46,6 @@ class LecturerController extends Controller
             'tengv',
             'ngaysinh',
             'gioitinh',
-            'hocham',
-            'hocvi',
         ])->orderBy('giangviens.id', 'desc')->get();
         $datatables = DataTables::of($subject)
             ->addColumn('hotengv',function ($data){
@@ -79,15 +77,13 @@ class LecturerController extends Controller
         return $datatables->make(true);
     }
     public function addlecturer(Request $request){
-        $data=$request->only(['add_magv','add_hogv','add_tengv','add_gioitinh','add_ngaysinh','add_hocham','add_hocvi']);
+        $data=$request->only(['add_magv','add_hogv','add_tengv','add_gioitinh','add_ngaysinh']);
         $lecturer=new Giangvien;
         $lecturer->magv=$data['add_magv'];
         $lecturer->hogv=$data['add_hogv'];
         $lecturer->tengv=$data['add_tengv'];
         $lecturer->gioitinh=$data['add_gioitinh'];
         $lecturer->ngaysinh=$data['add_ngaysinh'];
-        $lecturer->hocham=$data['add_hocham'];
-        $lecturer->hocvi=$data['add_hocvi'];
         $lecturer->save();
 //        foreach ($monhoc as $mh) {
 //            DB::table('diems')->insert(
@@ -154,8 +150,6 @@ class LecturerController extends Controller
         $model->tengv = $request->edit_tengv;
         $model->gioitinh =  $request->edit_gioitinh;
         $model->ngaysinh =  $request->edit_ngaysinh;
-        $model->hocham =  $request->edit_hocham;
-        $model->hocvi =  $request->edit_hocvi;
         $model->save();
         try{
             return Response::json([

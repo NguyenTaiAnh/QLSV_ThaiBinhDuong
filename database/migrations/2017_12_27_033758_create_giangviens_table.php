@@ -20,8 +20,6 @@ class CreateGiangviensTable extends Migration
             $table->string('tengv');
             $table->date('ngaysinh');
             $table->boolean('gioitinh');
-            $table->string('hocham');
-            $table->string('hocvi');
             $table->timestamps();
         });
     }

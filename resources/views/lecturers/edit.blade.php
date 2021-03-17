@@ -55,22 +55,6 @@
                                         <input type="date" name="edit_ngaysinh" id="edit_ngaysinh" class="form-control" required>
                                     </div>
                                 </div>
-                                <div class="input-group">
-                                        <span class="input-group-addon">
-                                            <i class="fa fa-user"></i>
-                                        </span>
-                                    <div class="form-line">
-                                        <input type="text" name="edit_hocham" id="edit_hocham" class="form-control" placeholder="Nhập học hàm giảng viên">
-                                    </div>
-                                </div>
-                                <div class="input-group">
-                                        <span class="input-group-addon">
-                                            <i class="fa fa-user"></i>
-                                        </span>
-                                    <div class="form-line">
-                                        <input type="text" name="edit_hocvi" id="edit_hocvi" class="form-control" placeholder="Nhập học vị giảng viên" >
-                                    </div>
-                                </div>
                                 {{--<div class="input-group">--}}
                                         {{--<span class="input-group-addon">--}}
                                             {{--<i class="fa fa-user"></i>--}}
